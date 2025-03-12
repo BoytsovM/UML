@@ -1,7 +1,7 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <thread>
 
-//Поток - это последовательность команд ЦП
+//РџРѕС‚РѕРє - СЌС‚Рѕ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РєРѕРјР°РЅРґ Р¦Рџ
 
 using namespace std::literals::chrono_literals;
 using std::cin;
@@ -40,7 +40,7 @@ void main()
 	std::thread plus_thread(Plus);
 	std::thread minus_thread(Minus);
 
-	cin.get(); // Ожидает нажатия Enter
+	cin.get(); // РћР¶РёРґР°РµС‚ РЅР°Р¶Р°С‚РёСЏ Enter
 	finish = true;
 
 	if(plus_thread.joinable())plus_thread.join();
@@ -53,8 +53,8 @@ void main()
 
 	/*
 	std::thread_name(&object, &MemberFunction);
-	member-veriable - переменная-член класса
-	member-function - функция
+	member-veriable - РїРµСЂРµРјРµРЅРЅР°СЏ-С‡Р»РµРЅ РєР»Р°СЃСЃР°
+	member-function - С„СѓРЅРєС†РёСЏ
 	*/
 
 }
