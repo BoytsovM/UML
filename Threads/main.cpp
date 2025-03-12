@@ -1,6 +1,8 @@
 #include <iostream>
 #include <thread>
 
+//Поток - это последовательность команд ЦП
+
 using namespace std::literals::chrono_literals;
 using std::cin;
 using std::cout;
